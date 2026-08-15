@@ -1,0 +1,242 @@
+{
+  "name": "Brumeh-Canta-KPFE",
+  "description": "",
+  "createdDate": 1784551557885,
+  "version": "1.0",
+  "apps": [
+    {
+      "packageName": "com.qualcomm.qtil.aptxacu"
+    },
+    {
+      "packageName": "com.google.android.adservices.api"
+    },
+    {
+      "packageName": "com.qualcomm.qtil.aptxals"
+    },
+    {
+      "packageName": "com.google.android.projection.gearhead"
+    },
+    {
+      "packageName": "com.android.egg"
+    },
+    {
+      "packageName": "com.google.android.setupwizard"
+    },
+    {
+      "packageName": "com.google.android.apps.restore"
+    },
+    {
+      "packageName": "com.google.android.as"
+    },
+    {
+      "packageName": "android.qvaoverlay.common"
+    },
+    {
+      "packageName": "com.qualcomm.qtil.aptxui"
+    },
+    {
+      "packageName": "com.android.dreams.basic"
+    },
+    {
+      "packageName": "com.android.bookmarkprovider"
+    },
+    {
+      "packageName": "com.google.android.calculator"
+    },
+    {
+      "packageName": "com.android.calllogbackup"
+    },
+    {
+      "packageName": "com.android.cameraextensions"
+    },
+    {
+      "packageName": "com.android.avatarpicker"
+    },
+    {
+      "packageName": "com.android.carrierconfig"
+    },
+    {
+      "packageName": "com.android.carrierconfig.overlay.common"
+    },
+    {
+      "packageName": "com.android.cellbroadcastreceiver.overlay.common"
+    },
+    {
+      "packageName": "com.android.companiondevicemanager.auto_generated_characteristics_rro"
+    },
+    {
+      "packageName": "com.android.cts.ctsshim"
+    },
+    {
+      "packageName": "com.android.microdroid.empty_payload"
+    },
+    {
+      "packageName": "com.google.android.ondevicepersonalization.services"
+    },
+    {
+      "packageName": "com.android.phone.auto_generated_characteristics_rro"
+    },
+    {
+      "packageName": "com.android.providers.partnerbookmarks"
+    },
+    {
+      "packageName": "com.android.providers.telephony.auto_generated_characteristics_rro"
+    },
+    {
+      "packageName": "com.android.se.overlay.target"
+    },
+    {
+      "packageName": "com.android.sharedstoragebackup"
+    },
+    {
+      "packageName": "com.android.smspush"
+    },
+    {
+      "packageName": "com.android.systemui.accessibility.accessibilitymenu"
+    },
+    {
+      "packageName": "com.android.systemui.overlay.common"
+    },
+    {
+      "packageName": "com.android.wallpaperbackup"
+    },
+    {
+      "packageName": "com.android.wallpapercropper"
+    },
+    {
+      "packageName": "com.google.android.federatedcompute"
+    },
+    {
+      "packageName": "com.google.android.health.connect.backuprestore"
+    },
+    {
+      "packageName": "com.google.android.overlay.gmsconfig.asi"
+    },
+    {
+      "packageName": "com.google.android.overlay.modules.captiveportallogin.forframework"
+    },
+    {
+      "packageName": "com.google.android.overlay.modules.healthfitness.forframework"
+    },
+    {
+      "packageName": "com.google.android.server.deviceconfig.resources"
+    },
+    {
+      "packageName": "com.qti.service.colorservice"
+    },
+    {
+      "packageName": "com.qualcomm.qti.biometrics.fingerprint.service"
+    },
+    {
+      "packageName": "com.qualcomm.qti.dynamicddsservice"
+    },
+    {
+      "packageName": "com.qualcomm.qti.qms.service.connectionsecurity"
+    },
+    {
+      "packageName": "com.qualcomm.qti.qms.service.trustzoneaccess"
+    },
+    {
+      "packageName": "com.qualcomm.qti.server.wigig.tethering.rro"
+    },
+    {
+      "packageName": "com.qualcomm.qti.uim"
+    },
+    {
+      "packageName": "com.android.providers.contactkeys"
+    },
+    {
+      "packageName": "com.qti.dcf"
+    },
+    {
+      "packageName": "com.android.emergency"
+    },
+    {
+      "packageName": "com.qualcomm.location"
+    },
+    {
+      "packageName": "com.google.android.apps.nbu.files"
+    },
+    {
+      "packageName": "com.google.android.syncadapters.calendar"
+    },
+    {
+      "packageName": "com.google.android.gms.location.history"
+    },
+    {
+      "packageName": "com.google.android.onetimeinitializer"
+    },
+    {
+      "packageName": "com.google.android.partnersetup"
+    },
+    {
+      "packageName": "com.google.android.gmsintegration"
+    },
+    {
+      "packageName": "com.google.android.healthconnect.controller"
+    },
+    {
+      "packageName": "com.android.protips"
+    },
+    {
+      "packageName": "com.google.mainline.adservices"
+    },
+    {
+      "packageName": "com.google.android.feedback"
+    },
+    {
+      "packageName": "com.android.music"
+    },
+    {
+      "packageName": "com.android.theme.font.notoserifsource"
+    },
+    {
+      "packageName": "com.android.dreams.phototable"
+    },
+    {
+      "packageName": "com.google.android.printservice.recommendation"
+    },
+    {
+      "packageName": "com.google.android.as.oss"
+    },
+    {
+      "packageName": "com.qti.qcc"
+    },
+    {
+      "packageName": "com.qualcomm.qti.qcolor"
+    },
+    {
+      "packageName": "com.qti.snapdragon.qdcm_ff"
+    },
+    {
+      "packageName": "com.qualcomm.qti.qmmi"
+    },
+    {
+      "packageName": "com.qualcomm.qti.server.qtiwifi"
+    },
+    {
+      "packageName": "com.quicinc.voice.activation"
+    },
+    {
+      "packageName": "com.google.android.gms.supervision"
+    },
+    {
+      "packageName": "com.android.traceur"
+    },
+    {
+      "packageName": "com.android.apps.tag"
+    },
+    {
+      "packageName": "com.qualcomm.qti.powersavemode"
+    },
+    {
+      "packageName": "com.android.DeviceAsWebcam"
+    },
+    {
+      "packageName": "com.qualcomm.qti.xrcb"
+    },
+    {
+      "packageName": "com.qualcomm.qti.xrvd.service"
+    }
+  ]
+}

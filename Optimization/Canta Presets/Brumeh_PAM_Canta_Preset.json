@@ -1,0 +1,194 @@
+{
+  "name": "Brumeh pam preset",
+  "description": "",
+  "createdDate": 1785971570722,
+  "version": "1.0",
+  "apps": [
+    {
+      "packageName": "com.mg.actionmonkey"
+    },
+    {
+      "packageName": "com.android.music"
+    },
+    {
+      "packageName": "com.android.egg"
+    },
+    {
+      "packageName": "com.google.android.setupwizard"
+    },
+    {
+      "packageName": "com.google.android.apps.restore"
+    },
+    {
+      "packageName": "com.android.dreams.basic"
+    },
+    {
+      "packageName": "com.android.theme.color.black"
+    },
+    {
+      "packageName": "com.google.android.ims"
+    },
+    {
+      "packageName": "com.android.theme.color.cinnamon"
+    },
+    {
+      "packageName": "com.android.theme.icon_pack.circular.themepicker"
+    },
+    {
+      "packageName": "com.android.theme.icon_pack.circular.settings"
+    },
+    {
+      "packageName": "com.android.theme.icon_pack.circular.systemui"
+    },
+    {
+      "packageName": "com.android.theme.icon_pack.circular.launcher"
+    },
+    {
+      "packageName": "com.android.theme.icon_pack.circular.android"
+    },
+    {
+      "packageName": "com.android.carrierconfig"
+    },
+    {
+      "packageName": "com.android.cts.ctsshim"
+    },
+    {
+      "packageName": "com.android.providers.partnerbookmarks"
+    },
+    {
+      "packageName": "com.android.wallpaperbackup"
+    },
+    {
+      "packageName": "com.android.wallpapercropper"
+    },
+    {
+      "packageName": "com.android.wallpaperpicker"
+    },
+    {
+      "packageName": "com.google.android.overlay.gmsconfig.assistantgo"
+    },
+    {
+      "packageName": "com.google.android.overlay.gmsconfig.comms"
+    },
+    {
+      "packageName": "com.google.android.overlay.gmsconfig.gallerygo"
+    },
+    {
+      "packageName": "com.debug.loggerui"
+    },
+    {
+      "packageName": "com.android.emergency"
+    },
+    {
+      "packageName": "com.mediatek.engineermode"
+    },
+    {
+      "packageName": "com.amobile.zen.factorytest"
+    },
+    {
+      "packageName": "com.google.android.apps.nbu.files"
+    },
+    {
+      "packageName": "com.google.android.apps.photosgo"
+    },
+    {
+      "packageName": "com.mediatek.gnssdebugreport"
+    },
+    {
+      "packageName": "com.google.android.syncadapters.calendar"
+    },
+    {
+      "packageName": "com.google.android.syncadapters.contacts"
+    },
+    {
+      "packageName": "com.google.android.gms.location.history"
+    },
+    {
+      "packageName": "com.google.android.onetimeinitializer"
+    },
+    {
+      "packageName": "com.google.android.partnersetup"
+    },
+    {
+      "packageName": "com.google.android.gmsintegration"
+    },
+    {
+      "packageName": "com.google.android.apps.speechservices"
+    },
+    {
+      "packageName": "com.android.theme.color.green"
+    },
+    {
+      "packageName": "com.android.wallpaper.livepicker"
+    },
+    {
+      "packageName": "com.google.android.feedback"
+    },
+    {
+      "packageName": "com.android.theme.font.notoserifsource"
+    },
+    {
+      "packageName": "com.android.theme.color.ocean"
+    },
+    {
+      "packageName": "com.android.theme.color.orchid"
+    },
+    {
+      "packageName": "com.android.theme.icon.pebble"
+    },
+    {
+      "packageName": "com.google.android.printservice.recommendation"
+    },
+    {
+      "packageName": "com.android.theme.color.purple"
+    },
+    {
+      "packageName": "com.mediatek.capctrl.service"
+    },
+    {
+      "packageName": "com.android.theme.icon_pack.rounded.systemui"
+    },
+    {
+      "packageName": "com.android.theme.icon_pack.rounded.android"
+    },
+    {
+      "packageName": "com.android.theme.icon_pack.rounded.launcher"
+    },
+    {
+      "packageName": "com.android.theme.icon_pack.rounded.themepicker"
+    },
+    {
+      "packageName": "com.android.theme.icon_pack.rounded.settings"
+    },
+    {
+      "packageName": "com.android.theme.icon.roundedrect"
+    },
+    {
+      "packageName": "com.android.theme.color.space"
+    },
+    {
+      "packageName": "com.android.theme.icon.squircle"
+    },
+    {
+      "packageName": "com.google.mainline.telemetry"
+    },
+    {
+      "packageName": "com.android.traceur"
+    },
+    {
+      "packageName": "com.android.theme.icon.taperedrect"
+    },
+    {
+      "packageName": "com.android.theme.icon.teardrop"
+    },
+    {
+      "packageName": "com.android.theme.icon.vessel"
+    },
+    {
+      "packageName": "com.android.vpndialogs"
+    },
+    {
+      "packageName": "com.android.managedprovisioning"
+    }
+  ]
+}
