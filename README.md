@@ -53,7 +53,10 @@ Scripts designed to reduce screen ghosting on the Ayaneo Pocket Air Mini and Aya
 
 ### 4. RetroArch Auto Config
 Scripts meant to automatically configure a RetroArch core with the best possible settings, shaders, and visual scaling for lay users.
-* **sameboy_auto_config.sh:** Automatically downloads the SameBoy core, enables Integer Scaling, and configures an LCD + Pixel Transparency shader as the core default. It also sets up a specific shader for the `gb` (Game Boy) roms folder with a Dot Matrix grid and Game Boy Light (Teal) colorization.
+* **retro_arch_common_auto_config.sh:** Automatically set RetroArch most common configurations. Such as: vulkan driver, run ahead, integer scale, rewind, fps counter, disable controler overlay, set auto save/load states and enable shaders.
+* **mesen-s_auto_config.sh:** Automatically downloads the Mesen-S core, downloads retro crisis shaders package, and configures retro crisis 1080p Flat RC GDV-NTSC - SNES - Clean shader as the core default.
+* **bsnes_auto_config.sh:** Automatically downloads the bsnes core, downloads retro crisis shaders package, and configures retro crisis 1080p Flat RC GDV-NTSC - SNES - Clean shader as the core default.
+* **sameboy_auto_config.sh:** Automatically downloads the SameBoy core, and configures an LCD + Pixel Transparency shader as the core default. It also sets up a specific shader for the `gb` (Game Boy) roms folder with a Dot Matrix grid and Game Boy Light (Teal) colorization.
 
 ## Usage
 
