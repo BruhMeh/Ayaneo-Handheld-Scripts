@@ -58,6 +58,10 @@ Scripts meant to automatically configure a RetroArch core with the best possible
 * **bsnes_auto_config.sh:** Automatically downloads the bsnes core, downloads retro crisis shaders package, and configures retro crisis 1080p Flat RC GDV-NTSC - SNES - Clean shader as the core default.
 * **sameboy_auto_config.sh:** Automatically downloads the SameBoy core, and configures an LCD + Pixel Transparency shader as the core default. It also sets up a specific shader for the `gb` (Game Boy) roms folder with a Dot Matrix grid and Game Boy Light (Teal) colorization.
 
+>[!NOTE]
+> **You need to have installed RetroArch outside of the play store for it to work, and have not changed your default shaders, cores and configs files within retroArch**
+
+
 ## Usage
 
 ### Executing Scripts (Recommended Method)
