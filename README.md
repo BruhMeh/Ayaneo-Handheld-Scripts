@@ -52,8 +52,15 @@ Scripts designed to reduce screen ghosting on the Ayaneo Pocket Air Mini and Aya
 * **extract_retroarch_configs.sh:** A simple utility script to extract all your current RetroArch configurations. Highly recommended for backing up your setup or migrating it to other devices.
 
 ### 4. RetroArch Auto Config
-Scripts meant to automatically configure a RetroArch core with the best possible settings, shaders, and visual scaling for lay users.
+
+Scripts meant to automatically install and minimally configure RetroArch
+* **retro_arch_auto_install.sh:** Script to install RetroArch Nightly, update core infos, overlays, shaders, cheats and etc.
 * **retro_arch_common_auto_config.sh:** Automatically set RetroArch most common configurations. Such as: vulkan driver, run ahead, integer scale, rewind, fps counter, disable controler overlay, set auto save/load states and enable shaders.
+
+>[!NOTE]
+>**After running auto install, open RetroArch at least once so it can create a default config file.**
+
+Scripts meant to automatically configure a RetroArch cores with the best possible settings, shaders, and visual scaling for lay users.
 * **mesen-s_auto_config.sh:** Automatically downloads the Mesen-S core, downloads retro crisis shaders package, and configures retro crisis 1080p Flat RC GDV-NTSC - SNES - Clean shader as the core default.
 * **bsnes_auto_config.sh:** Automatically downloads the bsnes core, downloads retro crisis shaders package, and configures retro crisis 1080p Flat RC GDV-NTSC - SNES - Clean shader as the core default.
 * **sameboy_auto_config.sh:** Automatically downloads the SameBoy core, and configures an LCD + Pixel Transparency shader as the core default. It also sets up a specific shader for the `gb` (Game Boy) roms folder with a Dot Matrix grid and Game Boy Light (Teal) colorization.
@@ -61,6 +68,7 @@ Scripts meant to automatically configure a RetroArch core with the best possible
 >[!NOTE]
 > **You need to have installed RetroArch outside of the play store for it to work, and have not changed your default shaders, cores and configs files locations within retroArch**
 
+**You still will need to configure you controler and hotkeys.**
 
 ## Usage
 
