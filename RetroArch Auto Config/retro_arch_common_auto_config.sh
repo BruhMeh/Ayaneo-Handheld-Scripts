@@ -9,6 +9,7 @@ sed -i 's|^video_scale_integer = .*|video_scale_integer = "true"|' /sdcard/Andro
 #Enable Run Ahead
 sed -i 's|^run_ahead_enabled = .*|run_ahead_enabled = "true"|' /sdcard/Android/data/com.retroarch.aarch64/files/retroarch.cfg 2>/dev/null
 sed -i 's|^run_ahead_frames = .*|run_ahead_frames = "1"|' /sdcard/Android/data/com.retroarch.aarch64/files/retroarch.cfg 2>/dev/null
+sed -i 's|^run_ahead_secondary_instance  = .*|run_ahead_secondary_instance  = "false"|' /sdcard/Android/data/com.retroarch.aarch64/files/retroarch.cfg 2>/dev/null
 
 #Enable rewind
 sed -i 's|^rewind_enable = .*|rewind_enable = "true"|' /sdcard/Android/data/com.retroarch.aarch64/files/retroarch.cfg 2>/dev/null
@@ -30,6 +31,7 @@ sed -i 's|^sort_savestates_by_content_enable = .*|sort_savestates_by_content_ena
 sed -i 's|^savestate_auto_index = .*|savestate_auto_index = "true"|' /sdcard/Android/data/com.retroarch.aarch64/files/retroarch.cfg 2>/dev/null
 sed -i 's|^savestate_auto_load = .*|savestate_auto_load = "true"|' /sdcard/Android/data/com.retroarch.aarch64/files/retroarch.cfg 2>/dev/null
 sed -i 's|^savestate_auto_save = .*|savestate_auto_save = "true"|' /sdcard/Android/data/com.retroarch.aarch64/files/retroarch.cfg 2>/dev/null
+sed -i 's|^savestate_max_keep = .*|savestate_max_keep = "10"|' /sdcard/Android/data/com.retroarch.aarch64/files/retroarch.cfg 2>/dev/null
 
 #Enable quit without confirmation
 sed -i 's|^quit_on_close_content = .*|quit_on_close_content = "1"|' /sdcard/Android/data/com.retroarch.aarch64/files/retroarch.cfg 2>/dev/null
@@ -41,3 +43,9 @@ sed -i 's|^quick_menu_show_shaders = .*|quick_menu_show_shaders = "true"|' /sdca
 sed -i 's|^video_shader_enable = .*|video_shader_enable = "true"|' /sdcard/Android/data/com.retroarch.aarch64/files/retroarch.cfg 2>/dev/null
 sed -i 's|^video_shader_preset_save_reference_enable = .*|video_shader_preset_save_reference_enable = "true"|' /sdcard/Android/data/com.retroarch.aarch64/files/retroarch.cfg 2>/dev/null
 sed -i 's|^auto_shaders_enable = .*|auto_shaders_enable = "true"|' /sdcard/Android/data/com.retroarch.aarch64/files/retroarch.cfg 2>/dev/null
+
+#Enable vibration
+sed -i 's|^enable_device_vibration = .*|enable_device_vibration = "true"|' /sdcard/Android/data/com.retroarch.aarch64/files/retroarch.cfg 2>/dev/null
+
+# Change menu driver to Ozone
+sed -i 's|^menu_driver = .*|menu_driver = "ozone"|' /sdcard/Android/data/com.retroarch.aarch64/files/retroarch.cfg 2>/dev/null
