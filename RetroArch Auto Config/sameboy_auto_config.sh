@@ -1,3 +1,4 @@
+#!/system/bin/sh
 # Create configuration directories for SameBoy
 mkdir -p /storage/emulated/0/RetroArch/config/SameBoy 2>/dev/null
 

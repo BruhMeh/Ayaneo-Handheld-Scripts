@@ -1,4 +1,4 @@
-
+#!/system/bin/sh
 #Download and install retro arch nightly
 rm -rf /data/local/tmp/retroarch_install
 mkdir -p /data/local/tmp/retroarch_install

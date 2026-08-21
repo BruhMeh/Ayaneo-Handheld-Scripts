@@ -1,3 +1,4 @@
+#!/system/bin/sh
 # Create configuration directories for Mesen-S
 mkdir -p /storage/emulated/0/RetroArch/config/Mesen-S 2>/dev/null
 

@@ -1,3 +1,4 @@
+#!/system/bin/sh
 # RetroArch most common configurations
 
 #Change video driver to vulkan

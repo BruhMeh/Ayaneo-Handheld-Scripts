@@ -1,3 +1,4 @@
+#!/system/bin/sh
 # Create configuration directories for bsnes
 mkdir -p /storage/emulated/0/RetroArch/config/bsnes 2>/dev/null
 
