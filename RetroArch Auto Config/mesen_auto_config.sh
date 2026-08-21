@@ -1,5 +1,5 @@
 #!/system/bin/sh
-# Create configuration directories for Mesen-S
+# Create configuration directories for Mesen
 mkdir -p /storage/emulated/0/RetroArch/config/Mesen 2>/dev/null
 
 # Download Mesen-S core from the official buildbot and extract it to the root protected folder
