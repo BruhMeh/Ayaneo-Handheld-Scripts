@@ -9,10 +9,76 @@ chmod 755 /data/data/com.retroarch.aarch64/cores/sameboy_libretro_android.so 2>/
 rm -f /data/data/com.retroarch.aarch64/cores/sameboy_temp.zip 2>/dev/null
 
 # Inject SameBoy core options (Opting for the profile with "accurate" color correction)
-echo -e 'sameboy_audio_interference = "0"\nsameboy_audio_interference_1 = "0"\nsameboy_audio_interference_2 = "0"\nsameboy_audio_output = "Game Boy #1"\nsameboy_auto_sgb_model = "Super Game Boy"\nsameboy_auto_sgb_model_1 = "Super Game Boy"\nsameboy_auto_sgb_model_2 = "Super Game Boy"\nsameboy_border = "Super Game Boy only"\nsameboy_color_correction_mode = "accurate"\nsameboy_color_correction_mode_1 = "emulate hardware"\nsameboy_color_correction_mode_2 = "emulate hardware"\nsameboy_high_pass_filter_mode = "accurate"\nsameboy_high_pass_filter_mode_1 = "accurate"\nsameboy_high_pass_filter_mode_2 = "accurate"\nsameboy_light_temperature = "0"\nsameboy_light_temperature_1 = "0"\nsameboy_light_temperature_2 = "0"\nsameboy_link = "enabled"\nsameboy_model = "Auto"\nsameboy_model_1 = "Auto"\nsameboy_model_2 = "Auto"\nsameboy_mono_palette = "greyscale"\nsameboy_mono_palette_1 = "greyscale"\nsameboy_mono_palette_2 = "greyscale"\nsameboy_rtc = "sync to system clock"\nsameboy_rumble = "rumble-enabled games"\nsameboy_rumble_1 = "rumble-enabled games"\nsameboy_rumble_2 = "rumble-enabled games"\nsameboy_screen_layout = "top-down"' > /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.opt
+echo -e 'sameboy_audio_interference = "0"' > /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.opt
+echo -e 'sameboy_audio_interference_1 = "0"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.opt
+echo -e 'sameboy_audio_interference_2 = "0"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.opt
+echo -e 'sameboy_audio_output = "Game Boy #1"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.opt
+echo -e 'sameboy_auto_sgb_model = "Super Game Boy"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.opt
+echo -e 'sameboy_auto_sgb_model_1 = "Super Game Boy"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.opt
+echo -e 'sameboy_auto_sgb_model_2 = "Super Game Boy"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.opt
+echo -e 'sameboy_border = "Super Game Boy only"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.opt
+echo -e 'sameboy_color_correction_mode = "accurate"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.opt
+echo -e 'sameboy_color_correction_mode_1 = "emulate hardware"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.opt
+echo -e 'sameboy_color_correction_mode_2 = "emulate hardware"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.opt
+echo -e 'sameboy_high_pass_filter_mode = "accurate"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.opt
+echo -e 'sameboy_high_pass_filter_mode_1 = "accurate"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.opt
+echo -e 'sameboy_high_pass_filter_mode_2 = "accurate"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.opt
+echo -e 'sameboy_light_temperature = "0"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.opt
+echo -e 'sameboy_light_temperature_1 = "0"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.opt
+echo -e 'sameboy_light_temperature_2 = "0"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.opt
+echo -e 'sameboy_link = "enabled"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.opt
+echo -e 'sameboy_model = "Auto"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.opt
+echo -e 'sameboy_model_1 = "Auto"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.opt
+echo -e 'sameboy_model_2 = "Auto"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.opt
+echo -e 'sameboy_mono_palette = "greyscale"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.opt
+echo -e 'sameboy_mono_palette_1 = "greyscale"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.opt
+echo -e 'sameboy_mono_palette_2 = "greyscale"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.opt
+echo -e 'sameboy_rtc = "sync to system clock"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.opt
+echo -e 'sameboy_rumble = "rumble-enabled games"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.opt
+echo -e 'sameboy_rumble_1 = "rumble-enabled games"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.opt
+echo -e 'sameboy_rumble_2 = "rumble-enabled games"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.opt
+echo -e 'sameboy_screen_layout = "top-down"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.opt
 
-# Inject SameBoy GameBoy Shader Preset (gb-pass setup)
-echo -e 'shaders = "5"\nshader0 = "../../../../../../data/user/0/com.retroarch.aarch64/shaders/shaders_slang/handheld/shaders/gameboy/shader-files/gb-pass0.slang"\nalias0 = "PASS0"\nwrap_mode0 = "clamp_to_border"\nmipmap_input0 = "false"\nfilter_linear0 = "false"\nfloat_framebuffer0 = "false"\nsrgb_framebuffer0 = "false"\nscale_type_x0 = "viewport"\nscale_x0 = "1.000000"\nscale_type_y0 = "viewport"\nscale_y0 = "1.000000"\nshader1 = "../../../../../../data/user/0/com.retroarch.aarch64/shaders/shaders_slang/handheld/shaders/gameboy/shader-files/gb-pass1.slang"\nalias1 = "PASS1"\nwrap_mode1 = "clamp_to_border"\nmipmap_input1 = "false"\nfilter_linear1 = "false"\nfloat_framebuffer1 = "false"\nsrgb_framebuffer1 = "false"\nscale_type_x1 = "source"\nscale_x1 = "1.000000"\nscale_type_y1 = "source"\nscale_y1 = "1.000000"\nshader2 = "../../../../../../data/user/0/com.retroarch.aarch64/shaders/shaders_slang/handheld/shaders/gameboy/shader-files/gb-pass2.slang"\nalias2 = "PASS2"\nwrap_mode2 = "clamp_to_border"\nmipmap_input2 = "false"\nfilter_linear2 = "false"\nfloat_framebuffer2 = "false"\nsrgb_framebuffer2 = "false"\nscale_type_x2 = "source"\nscale_x2 = "1.000000"\nscale_type_y2 = "source"\nscale_y2 = "1.000000"\nshader3 = "../../../../../../data/user/0/com.retroarch.aarch64/shaders/shaders_slang/handheld/shaders/gameboy/shader-files/gb-pass3.slang"\nalias3 = "PASS3"\nwrap_mode3 = "clamp_to_border"\nmipmap_input3 = "false"\nfilter_linear3 = "false"\nfloat_framebuffer3 = "false"\nsrgb_framebuffer3 = "false"\nscale_type_x3 = "source"\nscale_x3 = "1.000000"\nscale_type_y3 = "source"\nscale_y3 = "1.000000"\nshader4 = "../../../../../../data/user/0/com.retroarch.aarch64/shaders/shaders_slang/handheld/shaders/gameboy/shader-files/gb-pass4.slang"\nalias4 = "PASS4"\nwrap_mode4 = "clamp_to_border"\nmipmap_input4 = "false"\nfilter_linear4 = "false"\nfloat_framebuffer4 = "false"\nsrgb_framebuffer4 = "false"\nscale_type_x4 = "source"\nscale_x4 = "1.000000"\nscale_type_y4 = "source"\nscale_y4 = "1.000000"\npalette = "5.000000"\nbrightness_mode = "1.000000"\nresponse_time = "0.330000"\ntextures = "COLOR_PALETTE;BACKGROUND"\nCOLOR_PALETTE = "/data/user/0/com.retroarch.aarch64/shaders/shaders_slang/handheld/shaders/gameboy/resources/palette.png"\nCOLOR_PALETTE_mipmap = "false"\nCOLOR_PALETTE_linear = "false"\nCOLOR_PALETTE_wrap_mode = "clamp_to_border"\nBACKGROUND = "/data/user/0/com.retroarch.aarch64/shaders/shaders_slang/handheld/shaders/gameboy/resources/background.png"\nBACKGROUND_mipmap = "false"\nBACKGROUND_linear = "true"\nBACKGROUND_wrap_mode = "clamp_to_border"' > /storage/emulated/0/RetroArch/config/SameBoy/gb.slangp
 
-# Inject LCD Grid Shader Preset (Useful as a secondary option for color games)
-echo -e 'shaders = "2"\nshader0 = "../../../../../../data/user/0/com.retroarch.aarch64/shaders/shaders_slang/handheld/shaders/lcd-cgwg/lcd-grid-v2.slang"\nalias0 = ""\nwrap_mode0 = "clamp_to_border"\nmipmap_input0 = "false"\nfilter_linear0 = "false"\nfloat_framebuffer0 = "false"\nsrgb_framebuffer0 = "false"\nscale_type_x0 = "viewport"\nscale_x0 = "1.000000"\nscale_type_y0 = "viewport"\nscale_y0 = "1.000000"\nshader1 = "../../../../../../data/user/0/com.retroarch.aarch64/shaders/shaders_slang/handheld/shaders/pixel_transparency/pixel_transparency.slang"\nalias1 = ""\nwrap_mode1 = "clamp_to_border"\nmipmap_input1 = "false"\nfilter_linear1 = "false"\nfloat_framebuffer1 = "false"\nsrgb_framebuffer1 = "false"\nscale_type_x1 = "viewport"\nscale_x1 = "1.000000"\nscale_type_y1 = "viewport"\nscale_y1 = "1.000000"\nRSUBPIX_R = "0.750000"\nGSUBPIX_G = "0.750000"\nBSUBPIX_B = "0.750000"\ngain = "1.500000"\ngamma = "2.200000"\nblacklevel = "0.000000"\nPT_PALETTE = "1.000000"\nPT_POLARIZER = "0.000000"\nPT_HIGHLIGHTS = "0.000000"' > /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+# Inject lcd-grid-v2 and Pixel Transparency Shaders Preset and best configurations
+echo -e 'shaders = "2"' > /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'shader0 = "../../../../../../data/user/0/com.retroarch.aarch64/shaders/shaders_slang/handheld/shaders/lcd-cgwg/lcd-grid-v2.slang"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'alias0 = ""' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'wrap_mode0 = "clamp_to_border"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'mipmap_input0 = "false"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'filter_linear0 = "false"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'float_framebuffer0 = "false"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'srgb_framebuffer0 = "false"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'scale_type_x0 = "viewport"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'scale_x0 = "1.000000"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'scale_type_y0 = "viewport"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'scale_y0 = "1.000000"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'shader1 = "../../../../../../data/user/0/com.retroarch.aarch64/shaders/shaders_slang/handheld/shaders/pixel_transparency/pixel_transparency.slang"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'alias1 = ""' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'wrap_mode1 = "clamp_to_border"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'mipmap_input1 = "false"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'filter_linear1 = "false"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'float_framebuffer1 = "false"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'srgb_framebuffer1 = "false"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'scale_type_x1 = "viewport"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'scale_x1 = "1.000000"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'scale_type_y1 = "viewport"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'scale_y1 = "1.000000"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'RSUBPIX_R = "0.800000"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'GSUBPIX_G = "0.800000"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'BSUBPIX_B = "0.800000"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'gain = "1.600000"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'gamma = "2.200000"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'blacklevel = "0.000000"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'SECTION1 = "1.000000"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'PT_PALETTE = "2.000000"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'PT_BACKING_BRIGHTNESS = "0.500000"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'PT_POLARIZER = "0.000000"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'PT_SATURATION = "1.250000"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'PT_HIGHLIGHTS = "0.000000"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'SECTION2 = "1.000000"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'PT_WHITE_BOOST = "1.000000"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'PT_SHADOW_MOTION = "0.000000"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'PT_SHADOW_OFFSET_X = "2.000000"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'PT_SHADOW_OFFSET_Y = "2.000000"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
+echo -e 'PT_ACCEL_ENABLE = "0.000000"' >> /storage/emulated/0/RetroArch/config/SameBoy/SameBoy.slangp
