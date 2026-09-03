@@ -58,6 +58,7 @@ pm disable-user --user 0 com.android.bips
 pm disable-user --user 0 com.android.dreams.phototable
 pm disable-user --user 0 com.android.managedprovisioning
 pm disable-user --user 0 com.android.stk
+pm disable-user --user 0 com.qti.pasrservice
 
 # ---------------------------------------------------------
 # 4. System, Battery, and Performance Adjustments
