@@ -1,7 +1,7 @@
 {
-  "name": "smini",
+  "name": "sminiv2",
   "description": "",
-  "createdDate": 1787328914218,
+  "createdDate": 1788402349097,
   "version": "1.0",
   "apps": [
     {
@@ -21,6 +21,9 @@
     },
     {
       "packageName": "com.android.egg"
+    },
+    {
+      "packageName": "com.google.android.setupwizard"
     },
     {
       "packageName": "com.google.android.apps.restore"
@@ -95,6 +98,12 @@
       "packageName": "com.google.android.overlay.gmsconfig.gsa"
     },
     {
+      "packageName": "com.qti.dpmserviceapp"
+    },
+    {
+      "packageName": "com.qti.powermodule"
+    },
+    {
       "packageName": "com.qti.service.colorservice"
     },
     {
@@ -111,6 +120,9 @@
     },
     {
       "packageName": "com.qualcomm.qti.uim"
+    },
+    {
+      "packageName": "com.qualcomm.qti.workloadclassifier"
     },
     {
       "packageName": "com.qualcomm.qtil.btdsda"
@@ -185,6 +197,9 @@
       "packageName": "com.android.dreams.phototable"
     },
     {
+      "packageName": "com.qualcomm.qti.poweroffalarm"
+    },
+    {
       "packageName": "com.google.android.printservice.recommendation"
     },
     {
@@ -227,6 +242,9 @@
       "packageName": "com.android.soundrecorder"
     },
     {
+      "packageName": "com.google.android.tts"
+    },
+    {
       "packageName": "com.android.storagemanager"
     },
     {
@@ -246,6 +264,9 @@
     },
     {
       "packageName": "vendor.qti.imsdatachannel"
+    },
+    {
+      "packageName": "vendor.qti.imsrcs"
     },
     {
       "packageName": "vendor.qti.iwlan"
